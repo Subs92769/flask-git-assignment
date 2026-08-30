@@ -396,13 +396,13 @@ Add the screenshot of the GitHub repository page showing both branches.
 
 Save the screenshot in the project as:
 
-```text
-screenshots_new/github_branches.png
-```
+![Version 1 and Version 2 Git History](docs/screenshots/Commit_history_version1_2.png)
 
 Then it will be displayed here:
 
-![GitHub dev and main branches](screenshots_new/github_branches.png)
+![Version 1 - Application Welcome Endpoint](docs/screenshots/Version_1_changes.png)
+
+![Version 2 - Application Welcome Endpoint](docs/screenshots/Version_2_change.png)
 
 ## 3. Commit/Merge History Showing Version 1 and Version 2
 
@@ -410,15 +410,8 @@ Add the screenshot showing the commit or merge history for Version 1 and Version
 
 Save the screenshot in the project as:
 
-```text
-screenshots_new/git_history_versions.png
-```
+![Version 1 and Version 2 Git History](docs/screenshots/Commit_history_version1_2.png)
 
-Then it will be displayed here:
-
-![Version 1 and Version 2 Git History](screenshots_new/git_history_versions.png)
-
----
 
 # Installation and Setup
 
@@ -528,6 +521,6 @@ git_hero_vired_assignement_1/
 - [x] Git `dev` and `main` workflow documentation
 - [x] Version history
 - [x] Application screenshot
-- [ ] GitHub screenshot showing both `dev` and `main`
-- [ ] Commit/merge history screenshot showing Version 1 and Version 2
+- [x] GitHub screenshot showing both `dev` and `main`
+- [x] Commit/merge history screenshot showing Version 1 and Version 2
 
