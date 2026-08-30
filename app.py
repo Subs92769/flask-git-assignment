@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 votes = {}
 
-
+# Version 1.0.0 changes are present in this code snippet. The following changes have been made:
 @app.route("/")
 def home():
     return "Welcome to the App"
@@ -14,7 +14,8 @@ def home():
 def health():
     return "App is running"
 
-
+# Version 2.0.0 changes are present in this code snippet. The following changes have been made:
+# Implemented a voting system with endpoints to vote for candidates, view results, and reset votes.
 @app.route("/vote/<name>")
 def vote(name):
     votes[name] = votes.get(name, 0) + 1
