@@ -2,10 +2,13 @@
 
 ## Project Description
 
+Version 1 : It includes all the technical changes
+
 This project is a simple voting application where users can cast a vote for a candidate and check the current voting results.  
 It starts as a basic web application with a welcome page and a health-check page.  
 The application is developed in stages using Git so that completed work is kept in stable versions.  
-Version 2 adds a reset option that clears all stored votes.
+
+Version 2 adds only comments no functional changes
 
 ---
 
@@ -53,11 +56,11 @@ http://localhost:5000/health
 
 The screenshot below shows the application running and a working endpoint.
 
-![Application Welcome Endpoint](screenshots_new/Screenshot1_welcome_to_app.png)
+![Application Welcome Endpoint](docs/screenshots/Screenshot1_welcome_to_app.png)
 
 ### Health Endpoint Screenshot
 
-![Health Endpoint](screenshots_new/Screenshot_2_app_is_running.png)
+![Health Endpoint](docs/screenshots/Screenshot_2_app_is_running.png)
 
 ---
 
@@ -187,7 +190,7 @@ If the candidate is new, their count starts at 1. If the candidate already has v
 
 ### Voter Added Screenshot
 
-![Voter Added](screenshots_new/Screenshot_3_voter_added.png)
+![Voter Added](docs/screenshots/Screenshot_3_voter_added.png)
 
 ## Results Endpoint
 
@@ -205,7 +208,7 @@ Example:
 
 ### Results Screenshot
 
-![Voting Results](screenshots_new/Screenshot_4_results.png)
+![Voting Results](docs/screenshots/Screenshot_4_results.png)
 
 ---
 
@@ -247,7 +250,7 @@ The exact confirmation text should match the implementation in `app.py`.
 
 ### Reset Screenshot
 
-![Reset Endpoint](screenshots_new/Screenshot5_reset.png)
+![Reset Endpoint](docs/screenshots/Screenshot5_reset.png)
 
 ## Version 2 Git Workflow
 
@@ -385,7 +388,7 @@ This workflow keeps `main` stable while new development is performed on `dev`.
 
 The assignment requires a screenshot showing the application running in a browser with at least one working endpoint.
 
-![Application Running](screenshots_new/Screenshot1_welcome_to_app.png)
+![Application Welcome Endpoint](docs/screenshots/Screenshot1_welcome_to_app.png)
 
 ## 2. GitHub Repository Showing `dev` and `main`
 
